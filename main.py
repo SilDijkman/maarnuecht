@@ -1,6 +1,10 @@
-import snake_game
-import astar
+from logic import Game
 
 
-game = snake_game.Game
-game.tick(game, 0, 0)
+def main():
+    game = Game(800, 600, 20)
+    game.main_loop()
+
+
+if __name__ == "__main__":
+    main()

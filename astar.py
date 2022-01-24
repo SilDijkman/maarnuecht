@@ -1,2 +1,5 @@
+import random
+
+
 def determine_dir(board):
-    return -1
+    return random.randint(0, 3)
